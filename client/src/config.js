@@ -1,4 +1,4 @@
-let BASE_URL = "https://connect-backend-gavh.onrender.com";
+let BASE_URL = "https://connect-backend-gavh.onrender.com/";
 if (!process.env.NODE_ENV || process.env.NODE_ENV === "development") {
   BASE_URL = "http://localhost:4000/";
 }
